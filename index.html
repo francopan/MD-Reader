@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>MD Reader</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/github-markdown-css/github-markdown.css">
+  </head>
+  <body>
+      <aside id="contents">
+        <h3>Conteúdo</h3>
+        <ul id="content_list"></ul>
+      </aside>
+      <article id="paper" class="markdown-body"></article>
+  </body>
+
+  <!-- Scripts de Markdown -->
+  <script src="node_modules/showdown/dist/showdown.js" type="text/javascript"></script>
+  <script src="js/md_manager.js" type="text/javascript"></script>
+  <script>
+    open_md('docs/start.md','paper');
+  </script>
+
+</html>
