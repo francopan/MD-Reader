@@ -7,7 +7,7 @@ body{
   margin: 0 auto;
   background: #fff;
   padding:20px;
-  box-shadow: 0px 2px 3px #ccc;
+  box-shadow: 0 2px 3px #ccc;
   width: 800px;
 }
 #contents{
@@ -19,7 +19,7 @@ body{
   color: #aaa;
   right: 5px;
 }
-#contents h3{
+#contents > h3{
   padding: 0;
   margin: 0;
 }
@@ -31,12 +31,15 @@ body{
 }
 
 #contents button{
-  padding: 0px;
-  border:0px;
+  padding: 0;
+  border:0;
   cursor: pointer;
   color: #44f;
   padding: 3px;
-  outline:none;
+}
+
+#contents button:focus{
+  outline: none;
 }
 
 #contents button:hover{
