@@ -1,6 +1,6 @@
-# MD-Reader
+# MarkdownReader
 
-MD-Reader is a front-end 'plug-and-play' viewer/organizer of markdown documents. Just place the *md* files inside the *docs* folder.
+MarkdownReader is a front-end 'plug-and-play' viewer/organizer of markdown documents. Just place the *md* files inside the *docs* folder.
 
 ![Image](https://raw.githubusercontent.com/francopan/MD-Reader/master/preview.PNG "Image")
 
