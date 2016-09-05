@@ -13,7 +13,7 @@ MD-Reader is a front-end 'plug-and-play' viewer/organizer of markdown documents.
 * Search directory to list up all .md files
 * Search inside the files
 
-**Also**
+** Also**
 
 Look up the *license.txt* for the Showdown and Markdown license.
 
