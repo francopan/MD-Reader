@@ -6,12 +6,12 @@ MarkdownReader is a front-end 'plug-and-play' viewer/organizer of markdown docum
 
 **What it does now?**
 
-* It reads the contents of .md files and converts it to html (thanks to Showdown: https://github.com/showdownjs/showdown)
-* Automaticaly creates a summary/table of contents for the documents.
+- [x] It reads the contents of .md files and converts it to html (thanks to Showdown: https://github.com/showdownjs/showdown)
+- [x] Automaticaly creates a summary/table of contents for the documents.
 
 **What's up next?**
-* Search directory to list up all .md files
-* Search inside the files
+- [ ] Search directory to list up all .md files
+- [ ] Search inside the files
 
 **Also**
 
